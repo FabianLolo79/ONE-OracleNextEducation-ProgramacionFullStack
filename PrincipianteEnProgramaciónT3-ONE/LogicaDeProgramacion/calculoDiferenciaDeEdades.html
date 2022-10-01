@@ -1,0 +1,31 @@
+<meta charset="UTF-8">
+
+<h1>Cálculo diferencia de edades</h1>
+
+<script>
+
+	function saltoLinea() {
+
+		document.write("<br>");
+		document.write("<br>");
+		document.write("<br>");
+	}
+
+	function imprimir(texto) {
+
+		document.write(texto);
+		saltoLinea();
+	}
+	
+	var anho = 2022;
+	var javier = 1970;
+	var fabian = 1979;
+	var difEdad = (fabian - javier);
+
+	imprimir("Javier nació en el año " + javier);
+
+	imprimir("Fabián nació en el año " + fabian);
+
+	imprimir("Nuestra diferencia de edad es: " + difEdad)
+
+</script>
