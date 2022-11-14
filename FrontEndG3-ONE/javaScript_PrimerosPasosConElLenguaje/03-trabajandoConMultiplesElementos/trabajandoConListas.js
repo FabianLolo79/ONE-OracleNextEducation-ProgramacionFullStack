@@ -10,17 +10,14 @@ const BuenosAires = "Buenos Aires";
 // const ciudadesDisponibles = ["Bogota", "Lima", "Santiago", "Buenos Aires"];
 // console.log (ciudadesDisponibles);
 
-// declaración de array
 const ciudadesDisponibles = new Array();
 
-// fincion push agrega un dato al final del array
 ciudadesDisponibles.push("Bogota");
 ciudadesDisponibles.push("Caracas");
 ciudadesDisponibles.push("Lima");
 console.log ("Ciudades Disponibles");
 // console.log (ciudadesDisponibles);
 
-// declaración de array abreviado
 const ciudadesMasVendidas = [];
 
 // console.log (ciudadesMasVendidas);
@@ -36,12 +33,6 @@ console.log (ciudadesMasVendidas[0]);
 const cantidadCiudades = ciudadesDisponibles.length;
 console.log (`Tenemos ${cantidadCiudades} ciudades disponibles`);
 
-// splice borra datos y agrega
+
 ciudadesDisponibles.splice(1,1);
 console.log (ciudadesDisponibles);
-
-// función unshift() agrega un dato al inicio del array
-
-ciudadesDisponibles.unshift(`Quito`);
-console.log (ciudadesDisponibles);
-

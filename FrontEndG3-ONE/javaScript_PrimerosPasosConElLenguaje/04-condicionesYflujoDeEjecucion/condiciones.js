@@ -22,7 +22,7 @@ const estaAcompanado = false;
 
 
 
-// Operadores logicos
+// Operadores lógicos
 /*console.log (`Mayor que`);
 console.log (edadComprador >= 18);
 console.log (`Mayor`);
@@ -35,11 +35,6 @@ console.log (`Igual a`);
 console.log (edadComprador == 18);
 console.log (`Diferente de`);
 console.log (edadComprador != 18);*/
-
-// Y (AND); O (OR); NO (NOT)
-// AND = && se deben cumplir las 2 condiciones
-// OR = || se debe cumplir 1 de las 2 condiciones
-// NOT = ! no se cumple la condición
 
 
 // Operadores lógicos encadenados

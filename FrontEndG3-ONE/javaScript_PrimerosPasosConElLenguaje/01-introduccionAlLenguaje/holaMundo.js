@@ -1,4 +1,4 @@
-console.log ("Hola Mundo, mi primer programa");
+console.log ("Mi primer programa");
 console.log (2+2);
 
 const nombre = "Fabián";
