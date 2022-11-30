@@ -13,8 +13,12 @@ el entendimiento en la hora de escribir tus propias reglas.
 
 Proyecto en linea
 
-https://vercel.com/
+https://vercel.com/ 
 
 https://pages.github.com/
 
-https://www.svgrepo.com/
+https://www.svgrepo.com/  // iconos gratis svg 
+
+https://momentjs.com/ // librería para formato de fechas en forms
+
+https://cdnjs.com/ //  desde quí se bajó el cdn para instalar el moment (buscar en cdnjs)
