@@ -17,3 +17,4 @@ https://vercel.com/
 
 https://pages.github.com/
 
+https://www.svgrepo.com/

@@ -1,0 +1,22 @@
+class Empleado{
+  constructor(nombre, dni, salario) {
+    this.nombre = nombre;
+    this.dni = dni;
+    this.#salario = salario;
+    this.#bonificacion = 0;
+  }
+}
+
+class Gerente extends Empleado{
+  constructor(nombre, dni) {
+    super(nombre, dni, 2400);
+    this.#bonificacion = 1.2;
+  }
+}
+
+class Asistente extends Empleado {
+  constructor(nombre, dni) {
+    super(nombre, dni, 1200);
+    this.#bonificacion = 0.9;
+  }
+}
